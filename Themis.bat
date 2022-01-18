@@ -62,11 +62,12 @@ echo.
 echo.
 echo RESOURCES:
 echo.
-echo 1. Doxbin
+echo 1. Skidbin
 echo 2. Instagram
 echo 3. Github
 echo 4. Reporting Resource Paste
 echo 5. Credits
+echo 6. Doxbin (No longer using)
 echo.
 echo.
 echo.
@@ -79,23 +80,22 @@ if %ch%==2 goto ThemisB if NOT goto Start2
 if %ch%==3 goto ThemisC if NOT goto Start2
 if %ch%==4 goto ThemisD if NOT goto Start2
 if %ch%==5 goto ThemisE if NOT goto Start2
+if %ch%==6 goto ThemisF if NOT goto Start2
 goto themisstart
 exit
 :ThemisA
 cls
 :start
-set st="var"
 echo.
 echo.
 @echo off
-start https://doxbin.org/user/themis
+start https://skidbin.net/user/Themis
 cls
 goto themisstart
 
 :ThemisB
 cls
 :start
-set st="var"
 echo.
 echo.
 @echo off
@@ -106,7 +106,6 @@ goto themisstart
 :ThemisC
 cls
 :start
-set st="var"
 echo.
 echo.
 @echo off
@@ -117,7 +116,6 @@ goto themisstart
 :ThemisD
 cls
 :start
-set st="var"
 echo.
 echo.
 @echo off
@@ -128,13 +126,22 @@ goto themisstart
 :ThemisE 
 cls
 :start
-set st="var"
 echo.
 echo.
 echo 		Created by V1XX
 echo 		for THEMIS
-@echo off
-pause
 cls
+pause
+goto themisstart
 
+:ThemisF
+cls 
+:start
+echo.
+echo.
+start https://doxbin.com/user/themis
+@echo off
+cls
+pause
+goto themisstart
 
