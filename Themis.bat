@@ -67,7 +67,7 @@ echo 2. Instagram
 echo 3. Github
 echo 4. Reporting Resource Paste
 echo 5. Credits
-echo 6. Doxbin (No longer using)
+echo 6. About
 echo.
 echo.
 echo.
@@ -139,7 +139,9 @@ cls
 :start
 echo.
 echo.
-start https://doxbin.com/user/themis
+echo Themis is an ngo created in March of 2021 by Fennec and V1xx. 
+echo Themis is dedicated to gathering information on predators, zoophiles, rapists, abusers, and others who hurt innocent people.
+echo We report our findings to law enforcement & do not endorse illegal means of obtaining information.
 @echo off
 cls
 pause
