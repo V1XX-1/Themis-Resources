@@ -130,19 +130,20 @@ echo.
 echo.
 echo 		Created by V1XX
 echo 		for THEMIS
-cls
 pause
 goto themisstart
 
 :ThemisF
 cls 
 :start
-echo.
-echo.
 echo Themis is an ngo created in March of 2021 by Fennec and V1xx. 
-echo Themis is dedicated to gathering information on predators, zoophiles, rapists, abusers, and others who hurt innocent people.
-echo We report our findings to law enforcement & do not endorse illegal means of obtaining information.
-cls
+echo Themis is dedicated to gathering information on the following:
+echo predators, zoophiles, rapists, abusers, and others who hurt innocent people.
+echo We report our findings to law enforcement.
+echo We do not endorse illegal means of obtaining information.
+@echo off
+echo.
+echo.
 pause
 goto themisstart
 
