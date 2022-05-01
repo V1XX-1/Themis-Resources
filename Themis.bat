@@ -1,6 +1,6 @@
 @echo off
 chcp 65001
-:themisstart
+:start
 cls
 title THEMIS
 color 0c
@@ -75,13 +75,13 @@ echo.
 set /p ch="Enter your option here> "
 echo.
 pause
-if %ch%==1 goto ThemisA if NOT goto Start2
-if %ch%==2 goto ThemisB if NOT goto Start2
-if %ch%==3 goto ThemisC if NOT goto Start2
-if %ch%==4 goto ThemisD if NOT goto Start2
-if %ch%==5 goto ThemisE if NOT goto Start2
-if %ch%==6 goto ThemisF if NOT goto Start2
-goto themisstart
+if %ch%==1 goto ThemisA 
+if %ch%==2 goto ThemisB 
+if %ch%==3 goto ThemisC 
+if %ch%==4 goto ThemisD 
+if %ch%==5 goto ThemisE 
+if %ch%==6 goto ThemisF 
+goto start
 exit
 :ThemisA
 cls
@@ -91,7 +91,7 @@ echo.
 @echo off
 start https://skidbin.net/user/Themis
 cls
-goto themisstart
+goto start
 
 :ThemisB
 cls
@@ -101,7 +101,7 @@ echo.
 @echo off
 start https://www.instagram.com/themis.tm/
 cls
-goto themisstart
+goto start
 
 :ThemisC
 cls
@@ -111,7 +111,7 @@ echo.
 @echo off
 start https://github.com/V1XX-1
 cls
-goto themisstart
+goto start
 
 :ThemisD
 cls
@@ -121,7 +121,7 @@ echo.
 @echo off
 start https://pad.riseup.net/p/r.1a28cc1f63fb71873a860a9758591126
 cls
-goto themisstart
+goto start
 
 :ThemisE 
 cls
@@ -131,19 +131,19 @@ echo.
 echo 		Created by V1XX
 echo 		for THEMIS
 pause
-goto themisstart
+goto start
 
 :ThemisF
 cls 
 :start
 echo Themis is an ngo created in March of 2021 by Fennec and V1xx. 
 echo Themis is dedicated to gathering information on the following:
-echo predators, zoophiles, rapists, abusers, and others who hurt innocent people.
+echo Predators, zoophiles, rapists, abusers, and others who hurt innocent people.
 echo We report our findings to law enforcement.
 echo We do not endorse illegal means of obtaining information.
 @echo off
 echo.
 echo.
 pause
-goto themisstart
+goto start
 
